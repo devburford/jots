@@ -1,0 +1,4 @@
+name: Jots
+markdown: redcarpet
+pygments: true
+baseurl: /jots
