@@ -18,3 +18,11 @@ h1 {
 	text-align: left; 
 	padding-top:10px;
 }
+
+.subname{
+	text-transform:lowercase; 
+	font-size: 12px; 
+	font-family:'Cousine', sans-serif; 
+	color:#999; 
+	text-align: right;
+}
