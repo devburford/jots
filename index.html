@@ -8,18 +8,20 @@ title: jots
 		{% include sidebar.html %}
 	</div>
 	<div class="large-6 columns">
-  	<h1>jots</h1>
-  	<div class="row">
-			<div class="large-12 columns">
-				<div class="panel">
-					{% for post in site.posts limit:5 %}
-					<h2><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
-					{{ post.content }}
-					<em>Posted on {{ post.date | date_to_long_string }}.</em>
-					{% endfor %}
-				</div>
+		<div class="panel">
+    	<h1>jots</h1>
+    	<div class="row">
+  			<div class="large-12 columns">
+  				<div class="panel">
+						{% for post in site.posts limit:5 %}
+						<h2><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
+						{{ post.content }}
+						<em>Posted on {{ post.date | date_to_long_string }}.</em>
+						{% endfor %}
+  				</div>
+  			</div>
 			</div>
-		</div>
+    </div>
 	</div>
 	<div class="large-3 columns">
 		
