@@ -6,7 +6,7 @@ body {
 	background-color:#EBEBEB;
 }
 
-a {
+a, .post-title {
 	text-decoration:none;
 	color: #C14942;
 }

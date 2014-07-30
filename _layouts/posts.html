@@ -1,0 +1,16 @@
+{% include head.html %}
+
+  <div class="large-3 columns sidebar">
+		{% include sidebar.html %}
+	</div>
+	<div class="large-6 columns main-content">
+  	<h2 class="post-title">{{ page.title }}</h2>
+  	<div class="row">
+			{{ content }}
+		</div>
+	</div>
+	<div class="large-3 columns">
+		<p class="no-content"></p>
+	</div>
+
+{% include foot.html %}
