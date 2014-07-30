@@ -8,6 +8,7 @@ body {
 
 a {
 	text-decoration:none;
+	color: #C14942;
 }
 
 h1 {
@@ -21,7 +22,9 @@ h1 {
 
 .sidebar {
 	background-color: #f8f8f8;
+	padding-top: 2em;
 	position: fixed;
+	min-height: 100%;
 }
 
 .subname{
@@ -30,4 +33,14 @@ h1 {
 	font-family:'Cousine', sans-serif; 
 	color:#999; 
 	text-align: right;
+}
+
+.main-content {
+	padding-left: 30%;
+	width: 75%;
+}
+
+.no-content:before {
+  content: "...";
+  font-size: 0;
 }

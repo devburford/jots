@@ -4,11 +4,11 @@ body {
 	color:#777;
 	font-size:12px; 
 	background-color:#EBEBEB;
- 	text-transform: uppercase;
 }
 
 a {
 	text-decoration:none;
+	color: #C14942;
 }
 
 h1 {
@@ -18,4 +18,29 @@ h1 {
 	color:#4e4e4e; 
 	text-align: left; 
 	padding-top:10px;
+}
+
+.sidebar {
+	background-color: #f8f8f8;
+	padding-top: 2em;
+	position: fixed;
+	min-height: 100%;
+}
+
+.subname{
+	text-transform:lowercase; 
+	font-size: 12px; 
+	font-family:'Cousine', sans-serif; 
+	color:#999; 
+	text-align: right;
+}
+
+.main-content {
+	padding-left: 30%;
+	width: 75%;
+}
+
+.no-content:before {
+  content: "...";
+  font-size: 0;
 }
