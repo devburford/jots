@@ -7,12 +7,11 @@ title: jots
 		{% include sidebar.html %}
 	</div>
 	<div class="large-6 columns main-content">
-  	<h1>jots</h1>
-  	<div class="row">
+  	<div class="row link-slideright">
 			{% for post in site.posts limit:5 %}
 			<h2><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
+			<span class="post-date">{{ post.date | date_to_long_string }}</span>
 			{{ post.content }}
-			<em>{{ post.date | date_to_long_string }}</em>
 			{% endfor %}
 		</div>
 	</div>

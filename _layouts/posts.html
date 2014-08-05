@@ -5,7 +5,8 @@
 	</div>
 	<div class="large-6 columns main-content">
   	<h2 class="post-title">{{ page.title }}</h2>
-  	<div class="row">
+  	<span class="post-date">{{ page.date | date: "%d %B %Y" }}</span>
+  	<div class="row link-slideright">
 			{{ content }}
 		</div>
 	</div>
